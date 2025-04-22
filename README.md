@@ -16,7 +16,7 @@ It also was designed with multithreading in mind, so it'll always attempt to sta
 ## Sounds great! How do I run it?
 
 1. First, download [LmStudio](https://lmstudio.ai/).
-2. Your next step is to download the language model. To make the most of SmartOCR, first you NEED a vision-enabled model.
+2. Your next step is to download the language model. Due to how it is designed, a vision-enabled model is MANDATORY.
 At the time of my writing, the most powerful language model is Gemma 3 QAT. The 12B parameter model, which is reasonable enough in most cases, will take around 6-7 GB RAM.
 Download it [here](https://lmstudio.ai/model/gemma-3-12b-it-qat), clicking on the button "Use in LMStudio."
 
