@@ -22,10 +22,7 @@ Download it [here](https://lmstudio.ai/model/gemma-3-12b-it-qat), clicking on th
 
 ![image](https://github.com/user-attachments/assets/b0f505d1-798f-4eb1-9b55-9bc4b153a1e0)
 
-3. When you are done, open the console and run the program with:
-`python SmartOCR.py`
-
-Install any necessary dependencies.
+3. When you are done, open the console and run the program with `python SmartOCR.py`. Install any necessary dependencies.
 
 4. Enjoy!
 
