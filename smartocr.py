@@ -582,7 +582,7 @@ class PDFPreviewer(tk.Tk):
                                 elif hasattr(first_choice, 'text'): page_text = first_choice.text
                                 else: page_text = str(first_choice); print(f"[WARN] Unexp. choice struct p{current_actual_page_num}")
                             except Exception as choice_e: page_text = f"Err parse choices: {choice_e}"; print(f"[ERROR] Parse choices p{current_actual_page_num}: {choice_e}"); batch_had_processing_errors = True
-                        else: page_text = str(prediction_result); print(f"[WARN] Unkwn OCR result p{current_actual_page_num}")
+                        else: page_text = str(prediction_result); print(f"[WARN] Unknown OCR result p{current_actual_page_num}")
 
                         # Cleanup...
                         if not page_text.startswith("Error:"):
